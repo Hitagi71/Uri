@@ -1,18 +1,24 @@
-package Iniciante;
+package AD_HOC;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.text.DecimalFormat;
 
-public class Main2161 {
+public class Main2388 {
 	public static void main(String[] args) throws Exception{
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-		DecimalFormat df = new DecimalFormat("0.0000000000");
+		
 		int n = Integer.parseInt(in.readLine());
-		double raiz = 6;
+		
+		int soma = 0;
 		for (int i = 0; i < n; i++) {
-				raiz = 6+ 1.0/raiz;
+			String line = in.readLine();
+			int t =  Integer.valueOf(line.split(" ")[0]);
+			int v =  Integer.valueOf(line.split(" ")[1]);
+			
+			soma += v*t;
+			
 		}
 		
-		System.out.println(df.format(raiz-3).replace(",", "."));
+		System.out.println(soma);
 	}
 }

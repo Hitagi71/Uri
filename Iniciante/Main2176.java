@@ -1,3 +1,4 @@
+package Iniciante;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -5,13 +6,10 @@ public class Main2176 {
 	public static void main(String[] args) throws Exception{
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		int um = 0;
-		int zero = 0;
 		String s = in.readLine();
 		for (int i = 0; i < s.length(); i++) {
 			if(s.charAt(i) == '1') {
 				um++;
-			}else {
-				zero++;
 			}
 		}
 		

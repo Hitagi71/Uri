@@ -1,5 +1,5 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+package Iniciante;
+
 import java.util.Scanner;
 
 public class Main2163 {
@@ -25,6 +25,7 @@ public class Main2163 {
 						l = i + 1;
 						c = j + 1;
 						System.out.println(l+" "+c);
+						in.close();
 						return;
 					}
 				}
