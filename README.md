@@ -1,3 +1,3 @@
 # Uri
-Alguns do meus exericios resolvidos da Uri, os quais vou colocando aqui a medida que vou resolvendo os mesmos</br>
+Alguns do meus exericios da Uri, que eu vou enviando para este repositorio conforme vou resolvendo os problemas</br>
 Meu Uri: https://www.urionlinejudge.com.br/judge/pt/profile/252957
