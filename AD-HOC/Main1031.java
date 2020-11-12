@@ -2,7 +2,6 @@ package AD_HOC;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Random;
 
 public class Main1031{
 	public static void main(String[] args) throws Exception{
